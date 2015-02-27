@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<ScrollView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:scrollbars="vertical">
+        
+        <TableLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+            <TableRow 
+                android:id="@+id/tableRow1"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+        		<TextView 
+		            android:id="@+id/judul1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="ID Pesanan \t\t\t\t\t:\t"/>
+        		
+        		<TextView 
+		            android:id="@+id/textId"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+        		
+            </TableRow>
+            
+            <TableRow 
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Nama Pemesan \t\t\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/textpemesan"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:ems="5"/>
+		        
+	        </TableRow>
+	        
+            <TableRow 
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Alamat Pemesan \t\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/textalamat"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:ems="5"/>
+		        
+	        </TableRow>
+	        
+            <TableRow 
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul4"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Produk (Air berpH) \t\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/textproduk"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+	        </TableRow>
+	        
+            <TableRow 
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul5"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Ukuran (ml/l) \t\t\t\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/textukuran"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+	        </TableRow>
+	        
+            <TableRow 
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul6"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Harga Produk (Rp.)\t\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/textharga"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+	        </TableRow>
+	        
+	        <TableRow 
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul7"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Jumlah Pesanan \t\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/textjumlah"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+	        </TableRow>
+	        
+	        <TableRow 
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul8"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Total Harga (Rp.)\t\t\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/texttotal"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+	        </TableRow>
+	        
+            <TableRow 
+                android:id="@+id/tableRow9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                
+                <TextView 
+		            android:id="@+id/judul9"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="Tanggal Pemesanan\t:\t"/>
+                
+		        <TextView 
+		            android:id="@+id/tanggalpemesanan"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+	        
+	        </TableRow>
+        
+        </TableLayout>
+        
+    </ScrollView>
+
+</LinearLayout>
